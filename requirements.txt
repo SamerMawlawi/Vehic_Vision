@@ -1,0 +1,22 @@
+# Core AI Frameworks
+torch
+torchvision
+ultralytics
+
+# Image Processing
+opencv-python
+Pillow
+numpy
+matplotlib
+
+# Explainable AI (XAI)
+captum                  # PyTorch's official XAI library (supports Grad-CAM)
+ttach                   # For Test-Time Augmentation (optional but helpful for XAI)
+
+# UI & Web
+streamlit               # For the functional app interface
+
+# Utilities
+pandas
+scikit-learn
+tqdm
