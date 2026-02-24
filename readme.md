@@ -45,18 +45,18 @@ The goal of this graduation project is to create a seamless inspection pipeline 
     ```
 ## ✅ Verify Installation:
 After installing the requirements, run the following script to ensure your environment (Python, PyTorch, and GPU) is configured correctly:
-Bash
+```bash
     python check_setup.py
+```
 
 📂 Project Structure
 ```text
-
+Vehi-Vision
 ├── data/               # Local datasets (Ignored by Git)
 ├── venv/               # Python Environment (Ignored by Git)
 ├── weights/            # Saved model weights (.pt or .onnx)
 ├── notebooks/          # Research, EDA, and prototyping
 ├── src/                # Source code (Detection, Segmentation, XAI)
-├── app/                # Streamlit UI application code
 ├── .gitignore          # Files to exclude from Git
 └── README.md
 ```
