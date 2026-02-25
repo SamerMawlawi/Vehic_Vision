@@ -71,6 +71,6 @@ Vehi-Vision
 
     Elyas Yar – GitHub | LinkedIn
 
-    [Member Name] – GitHub | LinkedIn
+    Azzam Abdullah – GitHub | LinkedIn
 
     [Member Name] – GitHub | LinkedIn
