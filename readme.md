@@ -12,17 +12,20 @@ The goal of this graduation project is to create a seamless inspection pipeline 
 *Note: This project is strictly for exterior assessment; it does not cover internal mechanics or cabin interiors.*
 
 ## Tech Stack
+**Development:**
 * **Language:** Python 3.11.x (Specifically to avoid compatibility issues)
 * **Detection & Segmentation:** YOLO (v8/v11) and YOLO-Seg
 * **Explainable AI:** Grad-CAM (PyTorch-based)
-* **Libraries:** OpenCV, Pillow, NumPy, Matplotlib
+* **Libraries:** OpenCV, Pillow, NumPy, Matplotlib  
+
+**Deployment**
 * **UI Framework:** Streamlit (For the functional application interface)
 
 ## ⚙️ Setup & Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Abdullah-Ghulam/Vehi-Vision
+   git clone https://github.com/AbdullahGhulam/Vehi-Vision
    cd Vehi-Vision
     ```
     Create a Virtual Environment:
@@ -43,13 +46,14 @@ The goal of this graduation project is to create a seamless inspection pipeline 
     pip install --upgrade pip
     pip install -r requirements.txt
     ```
-## ✅ Verify Installation:
+3.  **Verify Installation:**  
 After installing the requirements, run the following script to ensure your environment (Python, PyTorch, and GPU) is configured correctly:
-```bash
+    ```bash
     python check_setup.py
-```
+    ```
 
-📂 Project Structure
+
+📂 **Project Structure**
 ```text
 Vehi-Vision
 ├── data/               # Local datasets (Ignored by Git)
@@ -61,7 +65,7 @@ Vehi-Vision
 └── README.md
 ```
 
-👥 Team & Credits
+👥  **Team & Credits**
 
     Abdullah Ghulam – GitHub | LinkedIn
 
