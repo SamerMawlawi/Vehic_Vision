@@ -69,7 +69,7 @@ Vehi-Vision
 
     Abdullah Ghulam – GitHub | LinkedIn
 
-    [Member Name] – GitHub | LinkedIn
+    Elyas Yar – GitHub | LinkedIn
 
     [Member Name] – GitHub | LinkedIn
 
