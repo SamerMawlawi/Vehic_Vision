@@ -1,56 +1,48 @@
-# Vehic-Vision
+# Welcom to data_prep
 
-An AI-powered automated vehicle inspection system designed for the insurance and car rental industries. **Vehi-Vision** leverages computer vision to detect, segment, and explain exterior vehicle damage through a transparent scoring system.
+## 🌳 Git Workflow & Branching Strategy
 
-## Overview
-The goal of this graduation project is to create a seamless inspection pipeline that:
-1. Detects exterior damages (dents, scratches, broken lights, etc.) using YOLO.
-2. Segments specific car parts to provide localized context for the damage.
-3. Utilizes XAI (Grad-CAM) to generate heatmaps, explaining the model's decision-making.
-4. Generates a severity report and damage score based on visual findings.
+To maintain a clean and conflict-free codebase, we follow a **Feature Branching** model. Please strictly adhere to the following workflow:
 
-*Note: This project is strictly for exterior assessment; it does not cover internal mechanics or cabin interiors.*
+### 1. Base Branch
+The `data_prep` branch serves as our integration hub for this phase. **Do not commit directly to this branch.**
 
-## Tech Stack
-**Development:**
-* **Language:** Python 3.11.x (Specifically to avoid compatibility issues)
-* **Detection & Segmentation:** YOLO (v8/v11) and YOLO-Seg
-* **Explainable AI:** Grad-CAM (PyTorch-based)
-* **Libraries:** OpenCV, Pillow, NumPy, Matplotlib  
+### 2. Working on a Task
+Before starting any task, create a sub-branch from `data_prep`:
 
-**Deployment**
-* **UI Framework:** Streamlit (For the functional application interface)
+```bash
+# 1. Switch to the data_prep branch
+git checkout data_prep
 
-## ⚙️ Setup & Installation
+# 2. Get the latest updates from the team
+git pull origin data_prep
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AbdullahGhulam/Vehi-Vision
-   cd Vehi-Vision
-    ```
-    Create a Virtual Environment:
+# 3. Create your own feature branch
+# Replace 'task-name' with your specific task (e.g., feature/mapping)
+git checkout -b feature/task-name
+```
 
-    ```bash
-    # This creates a new environment (run it only ONCE)
-    python -m venv venv
-    ```
+### Submission Process (Pull Requests)
 
-    After that, activate the environment using:
-    ```bash
-    source venv/bin/activate  # Linux/macOS
-    # venv\Scripts\activate   # Windows
-    ```
+Once you have completed your task:
 
-2. **Install Dependencies:**
-    ```bash
-    pip install --upgrade pip
-    pip install -r requirements.txt
-    ```
-3.  **Verify Installation:**  
-After installing the requirements, run the following script to ensure your environment (Python, PyTorch, and GPU) is configured correctly:
-    ```bash
-    python check_setup.py
-    ```
+    Push your branch to GitHub: git push -u origin feature/task-name.
+
+    Open a Pull Request (PR) on GitHub from your feature branch into data_prep.
+
+    Notify the Leader for code review.
+
+    After approval, the branch will be merged into data_prep.
+
+ **Important Rules**
+
+    Isolate your work: Only work on files related to your assigned Issue.
+
+    Sync frequently: Run git pull origin data_prep regularly to stay updated with other members' contributions.
+
+    Notebooks vs. Scripts: Use the notebooks/ folder for experiments, but move all final, reusable logic to the src/ folder.
+
+---
 
 
 📂 **Project Structure**
@@ -64,13 +56,3 @@ Vehi-Vision
 ├── .gitignore          # Files to exclude from Git
 └── README.md
 ```
-
-👥  **Team & Credits**
-
-    Abdullah Ghulam – GitHub | LinkedIn
-
-    Elyas Yar – GitHub | LinkedIn
-
-    Azzam Abdullah – GitHub | LinkedIn
-
-    [Member Name] – GitHub | LinkedIn
