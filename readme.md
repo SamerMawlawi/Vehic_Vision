@@ -73,4 +73,4 @@ Vehi-Vision
 
     Azzam Abdullah – GitHub | LinkedIn
 
-    [Member Name] – GitHub | LinkedIn
+    Samer Mawlawi – GitHub | LinkedIn
