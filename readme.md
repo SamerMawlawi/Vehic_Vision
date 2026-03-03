@@ -56,3 +56,13 @@ Vehi-Vision
 ├── .gitignore          # Files to exclude from Git
 └── README.md
 ```
+
+👥  **Team & Credits**
+
+    Abdullah Ghulam – GitHub | LinkedIn
+
+    Elyas Yar – GitHub | LinkedIn
+
+    Azzam Abdullah – GitHub | LinkedIn
+
+    Samer Mawlawi – GitHub | LinkedIn
