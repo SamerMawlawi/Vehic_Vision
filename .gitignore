@@ -1,3 +1,4 @@
 data/
 venv/
-.evn/
+.evn/__pycache__/
+src/utils/__pycache__/
