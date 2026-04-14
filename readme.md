@@ -74,4 +74,4 @@ Vehi-Vision
 
 * **Azzam Abdullah** – [GitHub]() | [LinkedIn]()
 
-* **Samer Mawlawi** – [GitHub]() | [LinkedIn]()
+* **Samer Mawlawi** – [GitHub](https://github.com/SamerMawlawi) | [LinkedIn](www.linkedin.com/in/samermawlawi)
